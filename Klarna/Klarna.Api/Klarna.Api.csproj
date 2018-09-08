@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CheckoutApi\Checkout\" />
+    <Folder Include="CheckoutApi\Callbacks\" />
+    <Folder Include="CustomerTokenApi\Token\" />
+    <Folder Include="HostedPaymentPageApi\Session\" />
+    <Folder Include="MerchantCardServiceApi\VirtualCreditCardSettlement\" />
+    <Folder Include="OrderManagementApi\Capture\" />
+    <Folder Include="OrderManagementApi\Refund\" />
+    <Folder Include="OrderManagementApi\Order\" />
+    <Folder Include="PaymentsApi\Order\" />
+    <Folder Include="PaymentsApi\Session\" />
+    <Folder Include="SettlementApi\Report\" />
+    <Folder Include="SettlementApi\Transaction\" />
+    <Folder Include="SettlementApi\Payout\" />
+  </ItemGroup>
+
+</Project>

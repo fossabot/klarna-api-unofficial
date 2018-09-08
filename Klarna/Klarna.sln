@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klarna.Api", "Klarna.Api\Klarna.Api.csproj", "{2EC18001-9D18-4EC9-925B-EC3E2BC1041B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Documentation", ".Documentation", "{55F7CF40-3A14-4446-A40C-4E0C0E3A77E8}"
+	ProjectSection(SolutionItems) = preProject
+		KlarnaApi.md = KlarnaApi.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klarna.Api.Test", "Klarna.Api.Test\Klarna.Api.Test.csproj", "{2E2B5B8C-2B82-4023-89AF-34550F9CB6F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC18001-9D18-4EC9-925B-EC3E2BC1041B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC18001-9D18-4EC9-925B-EC3E2BC1041B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC18001-9D18-4EC9-925B-EC3E2BC1041B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC18001-9D18-4EC9-925B-EC3E2BC1041B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2B5B8C-2B82-4023-89AF-34550F9CB6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2B5B8C-2B82-4023-89AF-34550F9CB6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2B5B8C-2B82-4023-89AF-34550F9CB6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2B5B8C-2B82-4023-89AF-34550F9CB6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CF66D4D-C949-46D7-B640-3B49B7E02CE1}
+	EndGlobalSection
+EndGlobal
